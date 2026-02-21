@@ -47,7 +47,7 @@ function App() {
           <input required value={score} onChange={(e) => setScore(e.target.value)} type="number" min="0" max="50" className=''></input>
           </div>
           <label className='text-black text-lg'>Enter your feedback about the course</label><br/>
-          <textarea value={feedback} onChange={(e) => setFeedback(e.target.value)} className='w-75 text-center p-10 h-20 xl:w-100 xl:h-30 resize-none my-[1vh] border rounded-xl focus:shadow-xl focus-visible:none transition duration-200'></textarea><br/>
+          <textarea required value={feedback} onChange={(e) => setFeedback(e.target.value)} className='w-75 text-center p-10 h-20 xl:w-100 xl:h-30 resize-none my-[1vh] border rounded-xl focus:shadow-xl focus-visible:none transition duration-200'></textarea><br/>
           <button type="submit" className='pl-5 pr-5 mb-5 rounded-xl text-xl font-["Consolas"] text-center hover:shadow-xl bg-blue-400 text-white active:scale-90 active:bg-gray-400 active:text-gray-500 active:shadow-none transition-all duration-50'>
           {loading ? "Analyzing..." : "Submit"}
           </button>
