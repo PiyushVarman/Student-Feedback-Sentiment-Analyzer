@@ -36,6 +36,7 @@ def rule_based_sentiment(text: str):
 
     negative_words = ["bad", "worst", "waste", "terrible", "poor", "boring", "useless", "awful"]
     positive_words = ["good", "excellent", "amazing", "great", "best", "wonderful", "awesome"]
+    neutral_words = ["ok","okay", "fine", "average", "moderate", "satisfactory"]
 
     # Handle negation case
     if "not bad" in text:
@@ -43,6 +44,7 @@ def rule_based_sentiment(text: str):
 
     pos_found = 0
     neg_found = 0
+    neutral_found=0
 
     # Count negative matches
     for word in negative_words:
@@ -54,8 +56,12 @@ def rule_based_sentiment(text: str):
         if re.search(rf"\b{word}\b", text):
             pos_found += 1
 
+    for word in neutral_words:
+        if re.search(rf"\b{word}\b", text):
+            neutral_found += 1
+
     # If both exist -> mixed sentiment -> neutral
-    if pos_found > 0 and neg_found > 0:
+    if (pos_found > 0 and neg_found > 0) or (neutral_found > pos_found and neutral_found > neg_found):
         return "neutral"
 
     # Only negative words
