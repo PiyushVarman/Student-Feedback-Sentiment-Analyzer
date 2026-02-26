@@ -1,0 +1,63 @@
+score,feedback,expected_sentiment,expected_flag
+50,Absolutely amazing and wonderful teaching!!!,positive,Genuine
+45,This was the best and most excellent course.,positive,Genuine
+40,Outstanding and fantastic explanations.,positive,Genuine
+30,Absolutely amazing and wonderful teaching!!!,positive,Suspicious
+10,Absolutely amazing and wonderful teaching!!!,positive,Highly Inconsistent
+
+5,Worst and most terrible subject ever.,negative,Genuine
+8,Absolutely horrible and awful lectures.,negative,Genuine
+15,Completely useless and terrible experience.,negative,Genuine
+40,Worst and most terrible subject ever.,negative,Suspicious
+50,Worst and most terrible subject ever.,negative,Highly Inconsistent
+
+25,The course covered the syllabus.,neutral,Genuine
+30,The classes were conducted regularly.,neutral,Genuine
+20,The subject included assignments and exams.,neutral,Genuine
+45,The course covered the syllabus.,neutral,Suspicious
+5,The classes were conducted regularly.,neutral,Suspicious
+
+48,THIS COURSE IS AMAZING!!!,positive,Genuine
+0,THIS COURSE IS AMAZING!!!,positive,Highly Inconsistent
+25,THIS COURSE IS AMAZING!!!,positive,Suspicious
+
+5,This subject was absolutely horrible.,negative,Genuine
+45,This subject was absolutely horrible.,negative,Highly Inconsistent
+25,This subject was absolutely horrible.,negative,Suspicious
+
+50,Excellent and brilliant teaching methods.,positive,Genuine
+10,Excellent and brilliant teaching methods.,positive,Highly Inconsistent
+30,Excellent and brilliant teaching methods.,positive,Suspicious
+
+3,Awful and worst experience ever.,negative,Genuine
+50,Awful and worst experience ever.,negative,Highly Inconsistent
+25,Awful and worst experience ever.,negative,Suspicious
+
+25,The lectures were scheduled weekly.,neutral,Genuine
+35,The timetable was followed properly.,neutral,Genuine
+45,The timetable was followed properly.,neutral,Suspicious
+5,The timetable was followed properly.,neutral,Suspicious
+
+50,Fantastic and amazing support from faculty.,positive,Genuine
+20,Fantastic and amazing support from faculty.,positive,Highly Inconsistent
+30,Fantastic and amazing support from faculty.,positive,Suspicious
+
+0,Horrible and terrible management.,negative,Genuine
+40,Horrible and terrible management.,negative,Suspicious
+50,Horrible and terrible management.,negative,Highly Inconsistent
+
+25,Assignments were submitted online.,neutral,Genuine
+50,Assignments were submitted online.,neutral,Suspicious
+5,Assignments were submitted online.,neutral,Suspicious
+
+45,Brilliant and outstanding lectures.,positive,Genuine
+15,Brilliant and outstanding lectures.,positive,Highly Inconsistent
+30,Brilliant and outstanding lectures.,positive,Suspicious
+
+5,Absolutely the worst course ever.,negative,Genuine
+45,Absolutely the worst course ever.,negative,Highly Inconsistent
+30,Absolutely the worst course ever.,negative,Suspicious
+
+25,The syllabus included multiple topics.,neutral,Genuine
+40,The syllabus included multiple topics.,neutral,Suspicious
+10,The syllabus included multiple topics.,neutral,Suspicious
