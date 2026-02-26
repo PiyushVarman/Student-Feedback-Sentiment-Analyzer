@@ -1,63 +1,120 @@
 score,feedback,expected_sentiment,expected_flag
-50,Absolutely amazing and wonderful teaching!!!,positive,Genuine
-45,This was the best and most excellent course.,positive,Genuine
-40,Outstanding and fantastic explanations.,positive,Genuine
-30,Absolutely amazing and wonderful teaching!!!,positive,Suspicious
-10,Absolutely amazing and wonderful teaching!!!,positive,Highly Inconsistent
+50,Absolutely amazing and wonderful teaching.,positive,Genuine
+48,Excellent and fantastic faculty.,positive,Genuine
+45,Best subject ever.,positive,Genuine
+42,Very good and helpful course.,positive,Genuine
+40,Great and engaging lectures.,positive,Genuine
+35,Absolutely amazing content.,positive,Suspicious
+30,Absolutely amazing content.,positive,Suspicious
+20,Absolutely amazing content.,positive,Highly Inconsistent
+10,Absolutely amazing content.,positive,Highly Inconsistent
+5,Absolutely amazing content.,positive,Highly Inconsistent
 
-5,Worst and most terrible subject ever.,negative,Genuine
-8,Absolutely horrible and awful lectures.,negative,Genuine
-15,Completely useless and terrible experience.,negative,Genuine
-40,Worst and most terrible subject ever.,negative,Suspicious
-50,Worst and most terrible subject ever.,negative,Highly Inconsistent
+5,Absolutely terrible and awful experience.,negative,Genuine
+8,Worst and most horrible subject.,negative,Genuine
+15,Very bad and disappointing.,negative,Genuine
+18,Extremely poor and useless.,negative,Genuine
+20,Really bad teaching.,negative,Genuine
+35,Very bad and disappointing.,negative,Suspicious
+40,Very bad and disappointing.,negative,Suspicious
+45,Very bad and disappointing.,negative,Highly Inconsistent
+48,Very bad and disappointing.,negative,Highly Inconsistent
+50,Very bad and disappointing.,negative,Highly Inconsistent
 
 25,The course covered the syllabus.,neutral,Genuine
-30,The classes were conducted regularly.,neutral,Genuine
-20,The subject included assignments and exams.,neutral,Genuine
-45,The course covered the syllabus.,neutral,Suspicious
-5,The classes were conducted regularly.,neutral,Suspicious
+28,The lectures were conducted regularly.,neutral,Genuine
+30,The timetable was followed properly.,neutral,Genuine
+32,Assignments were submitted weekly.,neutral,Genuine
+35,The subject included projects.,neutral,Genuine
+45,The subject included projects.,neutral,Suspicious
+50,The subject included projects.,neutral,Suspicious
+10,The subject included projects.,neutral,Suspicious
+5,The subject included projects.,neutral,Suspicious
+0,The subject included projects.,neutral,Suspicious
 
-48,THIS COURSE IS AMAZING!!!,positive,Genuine
+50,THIS COURSE IS AMAZING!!!,positive,Genuine
 0,THIS COURSE IS AMAZING!!!,positive,Highly Inconsistent
 25,THIS COURSE IS AMAZING!!!,positive,Suspicious
+45,THIS COURSE IS AMAZING!!!,positive,Genuine
+30,THIS COURSE IS AMAZING!!!,positive,Suspicious
 
 5,This subject was absolutely horrible.,negative,Genuine
 45,This subject was absolutely horrible.,negative,Highly Inconsistent
 25,This subject was absolutely horrible.,negative,Suspicious
+50,This subject was absolutely horrible.,negative,Highly Inconsistent
+30,This subject was absolutely horrible.,negative,Suspicious
 
-50,Excellent and brilliant teaching methods.,positive,Genuine
-10,Excellent and brilliant teaching methods.,positive,Highly Inconsistent
-30,Excellent and brilliant teaching methods.,positive,Suspicious
+50,Fantastic and brilliant explanations.,positive,Genuine
+20,Fantastic and brilliant explanations.,positive,Highly Inconsistent
+30,Fantastic and brilliant explanations.,positive,Suspicious
+45,Fantastic and brilliant explanations.,positive,Genuine
+10,Fantastic and brilliant explanations.,positive,Highly Inconsistent
 
 3,Awful and worst experience ever.,negative,Genuine
 50,Awful and worst experience ever.,negative,Highly Inconsistent
 25,Awful and worst experience ever.,negative,Suspicious
+40,Awful and worst experience ever.,negative,Suspicious
+15,Awful and worst experience ever.,negative,Genuine
 
 25,The lectures were scheduled weekly.,neutral,Genuine
-35,The timetable was followed properly.,neutral,Genuine
-45,The timetable was followed properly.,neutral,Suspicious
-5,The timetable was followed properly.,neutral,Suspicious
+35,The lectures were scheduled weekly.,neutral,Genuine
+45,The lectures were scheduled weekly.,neutral,Suspicious
+5,The lectures were scheduled weekly.,neutral,Suspicious
+50,The lectures were scheduled weekly.,neutral,Suspicious
 
-50,Fantastic and amazing support from faculty.,positive,Genuine
-20,Fantastic and amazing support from faculty.,positive,Highly Inconsistent
-30,Fantastic and amazing support from faculty.,positive,Suspicious
+44,The course was bad.,negative,Suspicious
+44,The course was amazing.,positive,Genuine
+44,The course was average.,neutral,Suspicious
+30,The course was average.,neutral,Genuine
+20,The course was average.,neutral,Suspicious
 
-0,Horrible and terrible management.,negative,Genuine
-40,Horrible and terrible management.,negative,Suspicious
-50,Horrible and terrible management.,negative,Highly Inconsistent
+15,Very good subject.,positive,Highly Inconsistent
+15,Very bad subject.,negative,Genuine
+35,Very good subject.,positive,Suspicious
+35,Very bad subject.,negative,Suspicious
+25,Very good subject.,positive,Suspicious
 
-25,Assignments were submitted online.,neutral,Genuine
-50,Assignments were submitted online.,neutral,Suspicious
-5,Assignments were submitted online.,neutral,Suspicious
+50,Average subject.,neutral,Suspicious
+0,Average subject.,neutral,Suspicious
+25,Average subject.,neutral,Genuine
+45,Average subject.,neutral,Suspicious
+10,Average subject.,neutral,Suspicious
 
-45,Brilliant and outstanding lectures.,positive,Genuine
-15,Brilliant and outstanding lectures.,positive,Highly Inconsistent
-30,Brilliant and outstanding lectures.,positive,Suspicious
+37,Helpful and clear lectures.,positive,Genuine
+37,Boring and confusing lectures.,negative,Suspicious
+23,Not good not bad.,neutral,Genuine
+41,Superb and excellent faculty.,positive,Genuine
+9,Superb and excellent faculty.,positive,Highly Inconsistent
 
-5,Absolutely the worst course ever.,negative,Genuine
-45,Absolutely the worst course ever.,negative,Highly Inconsistent
-30,Absolutely the worst course ever.,negative,Suspicious
+33,Weak but acceptable.,neutral,Genuine
+14,Wonderful yet disappointing.,neutral,Suspicious
+19,Clear but useless.,negative,Genuine
+23,Informative but dry.,neutral,Genuine
+47,Awful but well structured.,negative,Highly Inconsistent
 
-25,The syllabus included multiple topics.,neutral,Genuine
-40,The syllabus included multiple topics.,neutral,Suspicious
-10,The syllabus included multiple topics.,neutral,Suspicious
+38,Good explanations overall.,positive,Genuine
+22,Bad explanations overall.,negative,Genuine
+27,Okay explanations overall.,neutral,Genuine
+42,Extremely helpful and clear.,positive,Genuine
+12,Extremely helpful and clear.,positive,Highly Inconsistent
+
+50,Outstanding and exceptional subject.,positive,Genuine
+18,Outstanding and exceptional subject.,positive,Highly Inconsistent
+32,Outstanding and exceptional subject.,positive,Suspicious
+5,Disastrous and pathetic teaching.,negative,Genuine
+42,Disastrous and pathetic teaching.,negative,Suspicious
+
+39,Absolutely brilliant teaching style.,positive,Genuine
+21,Absolutely brilliant teaching style.,positive,Highly Inconsistent
+
+7,Completely useless and terrible subject.,negative,Genuine
+46,Completely useless and terrible subject.,negative,Highly Inconsistent
+
+26,The subject had lectures and assignments.,neutral,Genuine
+49,The subject had lectures and assignments.,neutral,Suspicious
+
+34,Good but slightly confusing at times.,positive,Suspicious
+16,Good but slightly confusing at times.,positive,Highly Inconsistent
+
+44,Extremely boring and frustrating experience.,negative,Suspicious
+12,Extremely boring and frustrating experience.,negative,Genuine

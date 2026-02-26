@@ -58,7 +58,7 @@ function App() {
             <h2 className='text-lg font-semibold mb-2'>Result:</h2>
             <p><strong>Student Score:</strong> {score}/50</p>
             <p><strong>Sentiment of feedback:</strong> {result.sentiment}</p>
-            <p><strong>Genuinity:</strong> {result.credibility_score*100}%</p>
+            <p><strong>Genuinity:</strong> {result.genuinity_score*100}%</p>
             <p><strong>Interpretation:</strong> {result.flag}</p>
           </div>
         )}

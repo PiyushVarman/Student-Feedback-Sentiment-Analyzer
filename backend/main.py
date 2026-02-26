@@ -38,7 +38,7 @@ def hybrid_sentiment(original_text: str,cleaned_text: str):
     # If strong sentiment, trust VADER
     if compound >= 0.6:
         return "positive"
-    elif compound <= -0.6:
+    elif compound <= -0.4:
         return "negative"
     elif -0.4 < compound < 0.4:
         return "neutral"
@@ -47,7 +47,7 @@ def hybrid_sentiment(original_text: str,cleaned_text: str):
     vec = vectorizer.transform([cleaned_text])
     return model.predict(vec)[0]
 
-def credibility_score(score, sentiment):
+def genuinity_score(score, sentiment):
     score_norm = score / 50
 
     sentiment_map = {"positive": 1, "neutral": 0, "negative": -1}
@@ -60,8 +60,8 @@ def credibility_score(score, sentiment):
     else:
         expected = -1
 
-    credibility = 1 - abs(expected - sent_value) / 2
-    return round(credibility, 2)
+    genuinity = 1 - abs(expected - sent_value) / 2
+    return round(genuinity, 2)
 
 
 @app.post("/predict")
@@ -74,17 +74,17 @@ def predict(data: FeedbackRequest):
 
     prediction = hybrid_sentiment(data.feedback,cleaned)
     
-    credibility = credibility_score(data.score, prediction)
+    genuinity = genuinity_score(data.score, prediction)
 
-    if credibility >= 0.7:
+    if genuinity >= 0.7:
         flag = "Genuine"
-    elif credibility >= 0.4:
+    elif genuinity >= 0.4:
         flag = "Suspicious"
     else:
-        flag = "Highly Inconsistent"
+        flag = "Not Genuine"
 
     return {
         "sentiment": prediction,
-        "credibility_score": credibility,
+        "genuinity_score": genuinity,
         "flag": flag
     }
